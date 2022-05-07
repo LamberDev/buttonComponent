@@ -1,0 +1,24 @@
+:root {
+    --default-widht: 81px;
+    --default-height: 36px;
+    --default-bg-color: #E0E0E0;
+    --default-shadow-color: rgba(51, 51, 51, 0.2);
+    --default-text-color: #3F3F3F;
+    --default-bg-hover-color: #AEAEAE;
+    --white-color: #ffffff;
+    --outline-text-color: #3D5AFE;
+    --outline-bg-color-hover: rgba(41, 98, 255, 0.1);
+    --disableShadow-bg-color: rgba(41, 98, 255, 0.1);
+    --disabled-text-color: #9E9E9E;
+    --size-buttons-bg-color: #2962FF;
+    --color-primary-shadow: rgba(41, 98, 255, 0.2);
+    --color-primary-bg-hover: #0039CB;
+    --color-secondary-bg: #455A64;
+    --color-secondary-shadow: rgba(69, 90, 100, 0.2);
+    --color-secondary-bg-hover: #1C313A;
+    --color-danger-bg: #D32F2F;
+    --color-danger-shadow: rgba(211, 47, 47, 0.2);
+    --color-danger-bg-hover: #9A0007;
+   
+}
+  

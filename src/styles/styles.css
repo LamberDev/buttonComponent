@@ -1,0 +1,123 @@
+@import url('../utils/colors.css');
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+.default{
+    background-color: var(--default-bg-color);
+    box-shadow: 0px 2px 3px  var(--default-shadow-color);
+    color: var(--default-text-color);
+    width: var(--default-widht);
+    height: var( --default-height);
+}
+.default:hover, 
+.default:focus{
+    background-color: var(--default-bg-hover-color);
+
+}
+
+.outline{
+    background-color: var(--white-color);
+    color: var(--outline-text-color);
+    border: 1px solid var(--outline-text-color);
+    width: var(--default-widht);
+    height: var( --default-height);
+}
+.outline:hover, 
+.outline:focus{
+    background-color: var(--outline-bg-color-hover);
+
+}
+
+.text{
+    color: var(--outline-text-color);
+    width: var(--default-widht);
+    height: var( --default-height);
+}
+.text:hover, 
+.text:focus{
+    background-color: var(--outline-bg-color-hover);
+
+}
+
+.disableShadow{
+    background-color: var(--outline-text-color);
+    color: white;
+    width: var(--default-widht);
+    height: var( --default-height);
+}
+
+.disabled{
+    background-color: var(--default-bg-color);
+    width: 88px;
+    height: 36px;
+    color: var(--disabled-text-color);
+}
+
+.text.disabled{
+    background-color: var(--white-color);
+    color: var(--disabled-text-color);
+    border: none;
+}
+
+.sm{
+    background-color: var(--size-buttons-bg-color);
+    color: var(--white-color);
+    width: 73px;
+    height: 32px;
+}
+
+.md{
+    background-color: var(--size-buttons-bg-color);
+    color: var(--white-color);
+    width: var(--default-widht);
+    height: var( --default-height);
+}
+
+.lg{
+    background-color: var(--size-buttons-bg-color);
+    color: var(--white-color);
+    width: 93px;
+    height: 42px;
+}
+
+.primary{
+    background-color: var(--size-buttons-bg-color);
+    color: var(--white-color);
+    width: var(--default-widht);
+    height: var( --default-height);
+    box-shadow: 0px 2px 3px var(--color-primary-shadow);
+}
+.primary:hover, 
+.primary:focus{
+    background-color: var(--color-primary-bg-hover);
+}
+
+.secondary{
+    background-color: var(--color-secondary-bg);
+    color: var(--white-color);
+    width: 104px;
+    height: 36px;
+    box-shadow: 0px 2px 3px var(--color-secondary-shadow);
+}
+.secondary:hover, 
+.secondary:focus{
+    background-color: var(--color-secondary-bg-hover);
+}
+
+.danger{
+    background-color: var(--color-danger-bg);
+    color: var(--white-color);
+    width: var(--default-widht);
+    height: var( --default-height);
+    box-shadow: 0px 2px 3px var(--color-danger-shadow);
+}
+.danger:hover, 
+.danger:focus{
+    background-color: var(--color-danger-bg-hover);
+}
