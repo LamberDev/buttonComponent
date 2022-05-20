@@ -1,10 +1,13 @@
-@import url('../utils/colors.css');
+@import url('./style_constants.css');
+
 
 #button{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+    line-height: 20px;
+    gap: 5px;
 }
 
 
@@ -14,6 +17,7 @@
     color: var(--default-text-color);
     width: var(--default-widht);
     height: var( --default-height);
+    cursor: pointer;
 }
 .default:hover, 
 .default:focus{
@@ -27,6 +31,7 @@
     border: 1px solid var(--outline-text-color);
     width: var(--default-widht);
     height: var( --default-height);
+    cursor: pointer;
 }
 .outline:hover, 
 .outline:focus{
@@ -38,6 +43,7 @@
     color: var(--outline-text-color);
     width: var(--default-widht);
     height: var( --default-height);
+    cursor: pointer;
 }
 .text:hover, 
 .text:focus{
@@ -50,6 +56,7 @@
     color: white;
     width: var(--default-widht);
     height: var( --default-height);
+    cursor: pointer;
 }
 
 .disabled{
@@ -57,6 +64,7 @@
     width: 88px;
     height: 36px;
     color: var(--disabled-text-color);
+    cursor: not-allowed;
 }
 
 .text.disabled{
@@ -70,6 +78,7 @@
     color: var(--white-color);
     width: 73px;
     height: 32px;
+    cursor: pointer;
 }
 
 .md{
@@ -77,6 +86,7 @@
     color: var(--white-color);
     width: var(--default-widht);
     height: var( --default-height);
+    cursor: pointer;
 }
 
 .lg{
@@ -84,6 +94,7 @@
     color: var(--white-color);
     width: 93px;
     height: 42px;
+    cursor: pointer;
 }
 
 .primary{
@@ -92,6 +103,7 @@
     width: var(--default-widht);
     height: var( --default-height);
     box-shadow: 0px 2px 3px var(--color-primary-shadow);
+    cursor: pointer;
 }
 .primary:hover, 
 .primary:focus{
@@ -104,6 +116,7 @@
     width: 104px;
     height: 36px;
     box-shadow: 0px 2px 3px var(--color-secondary-shadow);
+    cursor: pointer;
 }
 .secondary:hover, 
 .secondary:focus{
@@ -116,8 +129,24 @@
     width: var(--default-widht);
     height: var( --default-height);
     box-shadow: 0px 2px 3px var(--color-danger-shadow);
+    cursor: pointer;
 }
 .danger:hover, 
 .danger:focus{
     background-color: var(--color-danger-bg-hover);
+}
+
+.button-icon{
+    width:105px;
+    height: var( --default-height);
+    background-color: var(--size-buttons-bg-color);
+    color:var(--white-color);
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.icon{
+    height: 14px;
+    width: 15px;
 }

@@ -1,5 +1,5 @@
-import './App.css';
-import Button from './component/Button';
+import './styles/App.css';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -30,6 +30,26 @@ function App() {
         <Button color="secondary"/>
         <hr></hr>
         <Button color="danger"/>
+        <hr></hr>
+        <Button startIcon="delete_icon"/>
+        <hr></hr>
+        <Button endIcon="delete_icon"/>
+        <hr></hr>
+        <Button startIcon="add_icon"/>
+        <hr></hr>
+        <Button endIcon="add_icon"/>
+        <hr></hr>
+        <Button startIcon="star_icon"/>
+        <hr></hr>
+        <Button endIcon="star_icon"/>
+        <hr></hr>
+        <Button startIcon="thumb_up"/>
+        <hr></hr>
+        <Button endIcon="thumb_up"/>
+        <hr></hr>
+        <Button startIcon="thumb_down"/>
+        <hr></hr>
+        <Button endIcon="thumb_down"/>
       </header>
     </div>
   );
