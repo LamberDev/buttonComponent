@@ -1,5 +1,7 @@
 # Getting Started with Button Component 😁
 
+Creating a reusable button with different states. This exercise is a code excercise by https://devchallenges.io
+
 This project is a simple exercise to learn the philosophy of programming through small components, their usability and reusability.
 
 I have tried to follow good practices, I have not included the use of hooks or state since the scope was not that.
