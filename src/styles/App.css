@@ -2,11 +2,12 @@
 
 .App {
   margin: auto;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center; 
+  flex-wrap: wrap;
   color: white;
   font-size: 14px;
   font-family: 'Noto Sans JP', sans-serif;
@@ -14,11 +15,18 @@
 }
 
 .buttton_container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px 15px;
-  padding: 5px;
-  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
+@media only screen and (min-width: 1024px) {
+  .buttton_container{
+    flex-direction: column;
+  }
+}
 
